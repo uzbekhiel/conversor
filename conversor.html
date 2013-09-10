@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+<script type="text/javascript" src="conversor.js"></script>
+
+<title>Conversor</title>
+
+<script type="text/javascript">
+<!--
+	$(document).ready(function(){
+		
+		var valor = retornaValorMonetario($("#monetario").val());
+		$("#monetario").val("");
+		$("#monetario").val(valor);
+		
+		var valor = retornaValorCpf($("#cpf").val());
+		$("#cpf").val("");
+		$("#cpf").val(valor);
+		
+	});
+-->
+</script>
+
+</head>
+<body id="char">
+<input type="text" value="-40000000000,00" id="monetario" />
+<input type="text" value="11111111111" id="cpf" />
+
+</body >
+</html>
